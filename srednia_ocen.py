@@ -16,7 +16,7 @@ for przedmiot in tab:
     ocena_sem1 = input(przedmiot + " ")
     oceny_sem1.append(ocena_sem1)
     
-sem1 = [int(x) for x in oceny_sem1]
+sem1 = [float(x) for x in oceny_sem1]
 #print(sem1)
 
 # Obliczenia dla semestru drugiego
@@ -25,7 +25,7 @@ for przedmiot in tab:
     ocena_sem2 = input(przedmiot + " ")
     oceny_sem2.append(ocena_sem2)
     
-sem2 = [int(x) for x in oceny_sem2]
+sem2 = [float(x) for x in oceny_sem2]
 #print(sem2)
 
 srednia_sem1 = sum(sem1) / len(sem1)
